@@ -1,0 +1,115 @@
+body {
+    background-color: #202020;
+    color: white;
+    font-family: poppins;
+    /*Esses 2 elementos servem para dar quando vc dá um ctrl- ela ficar fixa no meio*/
+    max-width: 1200px;
+    margin: 0 auto;
+
+    padding: 15px
+        /*Para os itens ficarem mais afinalados, mais compactos*/
+    ;
+}
+
+/*CABEÇALHO*/
+
+header {
+    display: flex;
+    flex-direction: row;
+    /*Para os itens dessa div ficarem todos na msm linha*/
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    flex-direction: column;
+    line-height: 15px;
+    /*Para diminuir o espaço entre eles, para ficarem mais juntos*/
+
+}
+
+li {
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+    /*Para os elementos ficarem em linhas, um do lado do outro*/
+    margin: 20px;
+    /*Para dar um espaçamento entre os elementos*/
+}
+a{
+    color: #FFF;
+    transition: 1.2s;
+    text-decoration: none;
+}
+a:hover{
+    cursor: pointer;
+    color: #6C63FF;
+
+}
+.login{
+    border: 2px solid #6C63FF;
+    border-radius: 15px;
+    padding: 10px 40px
+}
+.login:hover{
+    background-color: #6C63FF;
+    color: #FFF;
+}
+
+h1 {
+    font-weight: 200;
+    /*A força da letra*/
+}
+main {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+h2{
+    font-size: 56px;
+    line-height: 10px;
+    width: 600px;
+    font-family: poppins;
+}
+span{
+    color: #6C63FF;
+}
+p{
+    line-height: 20px;
+    max-width: 500px;
+    font-family: Poppins;
+}
+img{
+    width: 600px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+
+}
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    outline-style: none;
+    border: none;
+    font-size: 15px;
+}
+.btn{
+    background-color: #6C63FF;
+    padding: 15px;
+    height: 50px;
+    width:50%;
+    font-weight: bold;
+    font-family: Helvetica;
+    transition: 1.1s;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(0, 128, 53);
+    color:black;
+}
